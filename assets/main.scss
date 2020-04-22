@@ -1,0 +1,17 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+.site-title {
+  line-height: 46px;
+  margin: 10px 0;
+  padding-left: 170px;
+  background: url(../assets/logo.svg) center left no-repeat;
+  background-size: contain;
+}
+
+.site-nav {
+  margin: 10px 0;
+}
