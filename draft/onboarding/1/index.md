@@ -1,11 +1,11 @@
 ---
-title: 'TS002: LoRaWAN Backend Interfaces 1.0'
-source: 'ts002/1-0'
+title: 'Draft: Onboarding end devices and gateways'
+source: 'draft/onboarding/1'
 ---
 
 ## Examples
 
-### Device Profile
+### End Device Profile
 
 #### OTAA Device
 

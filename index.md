@@ -27,7 +27,7 @@ Community contributed schemas can be used in future [LoRa Alliance][lora-allianc
 
 | Name | Description | Version | Schema |
 --- | --- | --- | ---
-`onboarding` | Onboarding end devices and gateways | 1 | `https://lorawan-schema.org/draft/onboarding/01/schema`
+[`onboarding`](draft/onboarding) | Onboarding end devices and gateways | 1 | `https://lorawan-schema.org/draft/onboarding/1/schema`
 
 ## Example
 

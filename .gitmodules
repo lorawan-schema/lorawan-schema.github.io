@@ -2,3 +2,7 @@
 	path = _includes/ts002/1-0
 	url = https://github.com/lorawan-schema/ts002.git
 	branch = v1.0
+[submodule "_includes/draft/onboarding/1"]
+	path = _includes/draft/onboarding/1
+	url = https://github.com/lorawan-schema/draft-onboarding.git
+	branch = v1
