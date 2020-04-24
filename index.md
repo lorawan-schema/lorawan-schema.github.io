@@ -19,7 +19,7 @@ Specifications governed by the [LoRa Alliance][lora-alliance]:
 
 | Mnemonic | Description | Version | Schema |
 --- | --- | --- | ---
-[`TS002`](ts002/1-0) | LoRaWAN Backend Interfaces | 1.0 | `https://lorawan-schema.org/ts002/1-0/schema`
+[`TS002`](ts002) | LoRaWAN Backend Interfaces | 1.0 | `https://lorawan-schema.org/ts002/1-0/schema`
 
 ### Community Contributed
 
@@ -29,6 +29,51 @@ Community contributed schemas can be used in future [LoRa Alliance][lora-allianc
 --- | --- | --- | ---
 `onboarding` | Onboarding end devices and gateways | 1 | `https://lorawan-schema.org/draft/onboarding/01/schema`
 
+## Example
+
+Use any [JSON Schema implementation][json-schema-implementations] for validation and generation. For example, you can use [`ajv-cli`][ajv-cli] to validate a JSON document using a command-line interface.
+
+With Node.js installed:
+
+```bash
+$ npm install -g ajv-cli
+```
+
+Download the [TS002 LoRaWAN Backend Interfaces 1.0 schema](ts002/1-0) as `schema.json`:
+
+```bash
+$ curl -o schema.json https://lorawan-schema.org/ts002/1-0/schema
+```
+
+Put the following device profile in `profile.json`:
+
+```json
+{
+  "DeviceProfileID": "ExampleOTAA",
+  "SupportsClassB": true,
+  "ClassBTimeout": 15,
+  "PingSlotFrequency": 924.5,
+  "PingSlotDR": 0,
+  "PingSlotPeriod": 128,
+  "SupportsClassC": true,
+  "ClassCTimeout": 15,
+  "MACVersion": "1.0.2",
+  "RegParamsRevision": "B",
+  "SupportsJoin": true,
+  "MaxEIRP": 14,
+  "RFRegion": "US902",
+  "Supports32bitFCnt": true
+}
+```
+
+Validate the device profile against the schema:
+
+```bash
+$ ajv validate -s schema.json -d profile.json
+```
+
 [json-schema]: https://json-schema.org
 [open-api]: https://www.openapis.org/
 [lora-alliance]: https://www.lora-alliance.org
+[json-schema-implementations]: https://json-schema.org/implementations.html
+[ajv-cli]: https://github.com/jessedc/ajv-cli
