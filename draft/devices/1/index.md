@@ -23,6 +23,12 @@ source: 'draft/devices/1'
 {% include {{ page.source }}/examples/profile.yaml %}
 {% endhighlight %}
 
+#### End Device Codec
+
+{% highlight yaml %}
+{% include {{ page.source }}/examples/codec.yaml %}
+{% endhighlight %}
+
 ## Definition
 
 {% highlight json %}
