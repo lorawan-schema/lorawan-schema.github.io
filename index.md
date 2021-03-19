@@ -28,6 +28,7 @@ Community contributed schemas can be used in future [LoRa Alliance][lora-allianc
 | Name | Description | Version | Schema |
 --- | --- | --- | ---
 [`devices`](draft/devices) | LoRaWAN end devices and gateways | 1 | `https://lorawan-schema.org/draft/devices/1/schema`
+[`dpd`](draft/dpd) | LoRaWAN device profile download | 1 | `https://lorawan-schema.org/draft/dpd/1/schema`
 
 ## Example
 

@@ -10,3 +10,7 @@
 	path = _includes/draft/devices/1
 	url = https://github.com/lorawan-schema/draft-devices.git
 	branch = v1
+[submodule "_includes/draft/dpd/1"]
+	path = _includes/draft/dpd/1
+	url = https://github.com/lorawan-schema/draft-dpd.git
+	branch = v1
