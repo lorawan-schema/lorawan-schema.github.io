@@ -5,6 +5,6 @@ source: 'draft/dpd/1'
 
 ## TS002 Definition
 
-{% highlight json %}
+{% highlight yaml %}
 {% include {{ page.source }}/ts002.oas3.yaml %}
 {% endhighlight %}
