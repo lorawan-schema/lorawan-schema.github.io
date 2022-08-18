@@ -8,8 +8,6 @@ LoRaWAN Schema Definitions are data models and APIs used in the LoRaWAN ecosyste
 
 The aim of this project is to help LoRaWAN developers build interoperable solutions using schemas. The schemas are based on [JSON Schema][json-schema] and [OpenAPI][open-api] so they are usable across many different languages and frameworks. The schemas implement some [LoRaWAN specifications and recommendations][lorawan-specifications] governed by the [LoRa Alliance][lora-alliance].
 
-Next to LoRa Alliance governed specifications, there are community contributed specifications for mechanisms that are not (yet) specified. For example, sharing device profiles, end device and gateway ownership claiming and binary payload coding. As such, the community contributed schemas are complementary to the LoRaWAN specifications and recommendations and can be used in future LoRa Alliance governed standardization work.
-
 The schema definitions are [Apache 2.0][license] licensed and are publicly available on [GitHub][gh-lorawan-schema]. This is a community project that is not affiliated with the LoRa Alliance.
 
 [json-schema]: https://json-schema.org

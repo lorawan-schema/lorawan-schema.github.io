@@ -13,22 +13,11 @@ The aim of this project is to help LoRaWAN developers build interoperable soluti
 
 ## Specifications
 
-### LoRa Alliance
-
 Specifications governed by the [LoRa Alliance][lora-alliance]:
 
 | Mnemonic | Description | Version | Schema |
 --- | --- | --- | ---
 [`TS002`](ts002) | LoRaWAN Backend Interfaces | 1.0 | `https://lorawan-schema.org/ts002/1-0/schema`
-
-### Community Contributed
-
-Community contributed schemas can be used in future [LoRa Alliance][lora-alliance] standardization work:
-
-| Name | Description | Version | Schema |
---- | --- | --- | ---
-[`devices`](draft/devices) | LoRaWAN end devices and gateways | 1 | `https://lorawan-schema.org/draft/devices/1/schema`
-[`dpd`](draft/dpd) | LoRaWAN device profile download | 1 | `https://lorawan-schema.org/draft/dpd/1/schema`
 
 ## Example
 
